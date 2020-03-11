@@ -18,7 +18,7 @@ if __name__ == "__main__":
 
     movieNames = loadMovieNames()
 
-    lines = sc.textFile("hdfs:///user/dkagialis/u.data")
+    lines = sc.textFile("hdfs:///user/maria_dev/u.data")
 
     movieRatings = lines.map(parseInput)
 
