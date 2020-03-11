@@ -8,7 +8,7 @@ spark = SparkSession.builder.appName("SparkSQL").getOrCreate()
 
 def mapper(line):
     fields = line.split(',')
-    return Row(place=str(fields[16].encode("utf-8")))
+    return Row(place=str(fields[17].encode("utf-8")))
 
 lines = spark.sparkContext.textFile("hdfs:///user/maria_dev/earthquakes-final.csv")
 earthquakes = lines.map(mapper)
