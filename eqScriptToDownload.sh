@@ -5,7 +5,7 @@ touch ../data/earthquakes.csv
 for value in {1..12}
 do
   	let 'value1 = value+1'
-	year=2018
+	year=2017
 
 	if [ "$value" = "12"  ]; then
           value1="$value"
