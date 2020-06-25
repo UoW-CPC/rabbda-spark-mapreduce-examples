@@ -141,7 +141,7 @@ sudo yum install python-pip
 sudo pip install mrjob
 ```
 
-We can run the python script in two ways:
+We can run the MR Job in two ways:
 * Locally:
 ```
 python ratings.py users.txt
