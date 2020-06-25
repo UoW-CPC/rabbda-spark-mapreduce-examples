@@ -120,12 +120,12 @@ Initialy you need to upload the sample data usets.txt to HDFS:
 hdfs dfs -put users.txt /user/maria_dev/users.txt
 ```
 
-The file movies.txt will be access for the local filesystem.
-
 See the file in HDFS:
 ```
 hdfs dfs -ls /user/maria_dev/
 ```
+
+The file movies.txt will be access for the local filesystem.
 
 Now we are ready to run the spark scripts:
 
