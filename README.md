@@ -46,14 +46,57 @@ __Notice:__ In case you are not using HDP with user maria_dev, please change the
 ```
 spark-submit eq-spark-groupByYear.py
 ```
+Output:
+```
+2018 180755
+2019 154527
+```
 2.	Group earthquakes by magnitude with spark:
 ```
 spark-submit eq-spark-groupByMangitude.py
+```
+Sample output:
+```
+6.4 24
+6.5 13
+6.6 11
+6.7 9
+6.8 9
+6.9 6
+7.0 3
+7.1 7
+7.2 1
+7.3 4
+7.5 5
+7.6 1
+7.9 2
+8.0 1
+8.2 1
 ```
 3.	Group earthquakes by country with spark sql:
 ```
 spark-submit eq-spark-sql-groupByCountry.py
 ```
+
+Sample output:
+```
+6.4 24
+6.5 13
+6.6 11
+6.7 9
+6.8 9
+6.9 6
+7.0 3
+7.1 7
+7.2 1
+7.3 4
+7.5 5
+7.6 1
+7.9 2
+8.0 1
+8.2 1
+```
+
 Move back to the parent folder:
 ```
 cd ..
