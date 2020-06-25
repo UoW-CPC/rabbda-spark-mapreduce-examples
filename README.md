@@ -127,7 +127,7 @@ hdfs dfs -ls /user/maria_dev/
 
 The file movies.txt will be access for the local filesystem.
 
-Now we are ready to run the spark scripts:
+Now we are ready to run the scripts:
 
 __Notice:__ In case you are not using HDP with user maria_dev, please change the HDFS path in the script worst_movies.py accordingly.
 
