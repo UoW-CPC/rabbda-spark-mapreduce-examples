@@ -175,7 +175,7 @@ Now let's try to submit a Spark job to find the worst movies in the dataset.
 
 To submit the python script run the following:
 ```
-spark-sumbit worst-movies.py
+spark-submit worst-movies.py
 ```
 Output:
 ```
