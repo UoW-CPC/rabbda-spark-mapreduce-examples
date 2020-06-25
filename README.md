@@ -131,7 +131,7 @@ Now we are ready to run the scripts:
 
 __Notice:__ In case you are not using HDP with user maria_dev, please change the HDFS path in the script worst_movies.py accordingly.
 
-First we will try to submit an MR job to analyse ratings on the user.txt.
+First we will try to submit an MR job to analyse the ratings in the user.txt.
 Before we execute the script we need to install the python mrjob package, otherwise the execution will fail.
 To do so run:
 ```
