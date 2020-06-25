@@ -171,7 +171,7 @@ Output:
 Run both and compare execution time and messages.
 
 
-Now let's try to submit a Spark job to find the worst movies in the dataset.
+Now let's try to submit a Spark job to find the worst movies by joining the two datasets movies.txt and users.txt.
 
 To submit the python script run the following:
 ```
