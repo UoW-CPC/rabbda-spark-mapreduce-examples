@@ -101,7 +101,7 @@ Move back to the parent folder:
 cd ..
 ```
 
-## Part B – Analysing Movies data with Python, Map-Reduce and Spark
+## Part B – Analysing Movies data with Map-Reduce, Spark with Python scripts
 
 Move to the movies folder:
 ```
