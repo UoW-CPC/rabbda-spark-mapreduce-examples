@@ -8,13 +8,13 @@ git clone https://github.com/UoW-CPC/rabbda-spark-mapreduce-examples.git
 ```
 Move to the repository:
 ```
-cd rabbda-spark-tutorial
+cd rabbda-spark-mapreduce-examples
 ```
 There you can see two folders:
 * earthquakes - Part A
 * movies - Part B
 
-## Part A – Analyse Earthquakes data with Spark and PySpark
+## Part A – Analysing Earthquakes data with Spark and PySpark
 
 Move to the earthquakes folder:
 ```
@@ -30,7 +30,7 @@ Initialy you need to upload the sample data to HDFS:
 ```
 # command hdfs dfs –put earthquakes.csv /YOUR_HDFS_PATH
 # sample command for Hortonwork Data Platform with user maria_dev
-hdfs dfs –put earthquakes.csv /user/maria_dev/earthquakes.csv
+hdfs dfs -put earthquakes.csv /user/maria_dev/earthquakes.csv
 ```
 
 See the file in HDFS:
@@ -59,7 +59,7 @@ Move back to the parent folder:
 cd ..
 ```
 
-## Part B – Analyse Movies data with Python, Map-Reduce and Spark
+## Part B – Analysing Movies data with Python, Map-Reduce and Spark
 
 Move to the movies folder:
 ```
@@ -75,7 +75,7 @@ Initialy you need to upload the sample data usets.txt to HDFS:
 ```
 # command hdfs dfs –put users.txt /YOUR_HDFS_PATH
 # sample command for Hortonwork Data Platform with user maria_dev
-hdfs dfs –put users.txt /user/maria_dev/users.txt
+hdfs dfs -put users.txt /user/maria_dev/users.txt
 ```
 
 The file movies.txt will be access for the local filesystem.
