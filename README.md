@@ -173,7 +173,7 @@ Run both and compare execution time and messages.
 
 Now let's try to submit a Spark job to find the worst movies in the dataset.
 
-To submit the python script to spark run the following:
+To submit the python script run the following:
 ```
 spark-sumbit worst-movies.py
 ```
