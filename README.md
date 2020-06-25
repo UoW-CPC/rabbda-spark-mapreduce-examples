@@ -131,7 +131,7 @@ Now we are ready to run the scripts:
 
 __Notice:__ In case you are not using HDP with user maria_dev, please change the HDFS path in the script worst_movies.py accordingly.
 
-First we will try to submit an MR job.
+First we will try to submit an MR job to analyse ratings on the user.txt.
 Before we execute the script we need to install the python mrjob package, otherwise the execution will fail.
 To do so run:
 ```
@@ -171,7 +171,7 @@ Output:
 Run both and compare execution time and messages.
 
 
-Now let's try to submit a Spark job to find the worst movies by joining the two datasets movies.txt and users.txt.
+Now let's try to submit a Spark Job to find the worst movies by joining the two datasets movies.txt and users.txt.
 
 To submit the python script run the following:
 ```
