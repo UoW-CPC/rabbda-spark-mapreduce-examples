@@ -80,21 +80,20 @@ spark-submit eq-spark-sql-groupByCountry.py
 
 Sample output:
 ```
-6.4 24
-6.5 13
-6.6 11
-6.7 9
-6.8 9
-6.9 6
-7.0 3
-7.1 7
-7.2 1
-7.3 4
-7.5 5
-7.6 1
-7.9 2
-8.0 1
-8.2 1
+|"101km W of Honiara                   |1    |
+|"101km W of Iwanai                    |1    |
+|"101km W of Kuqa                      |1    |
+|"101km W of Larsen Bay                |1    |
+|"101km W of Mendi                     |1    |
+|"101km W of Old Crow                  |1    |
+|"101km W of Ovalle                    |1    |
+|"101km W of San Antonio de los Cobres |1    |
+|"101km W of Tarauaca                  |1    |
+|"101km W of Willow                    |10   |
+|"101km WNW of Arctic Village          |6    |
+|"101km WNW of Cantwell                |2    |
+|"101km WNW of Chirikof Island         |2    |
+|"101km WNW of Gustavus                |1    |
 ```
 
 Move back to the parent folder:
