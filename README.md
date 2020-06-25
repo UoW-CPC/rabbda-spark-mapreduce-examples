@@ -4,7 +4,7 @@
 
 First open a terminal and download the repository:
 ```
-git clone https://github.com/UoW-CPC/rabbda-spark-tutorial.git
+git clone https://github.com/UoW-CPC/rabbda-spark-mapreduce-examples.git
 ```
 Move to the repository:
 ```
