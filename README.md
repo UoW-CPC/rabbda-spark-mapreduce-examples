@@ -1,4 +1,4 @@
-#rabbda-spark-tutorial
+# rabbda-spark-mapreduce-examples
 
 ## Getting started
 
