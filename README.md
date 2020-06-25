@@ -131,8 +131,7 @@ Now we are ready to run the scripts:
 
 __Notice:__ In case you are not using HDP with user maria_dev, please change the HDFS path in the script worst_movies.py accordingly.
 
-First we will try to submit an MR job. Run the command cat RatingsBreakdown.py command to view the script.
-At the moment there is no need to understand its content. The requirement is to execute it and see the results.
+First we will try to submit an MR job.
 Before we execute the script we need to install the python mrjob package, otherwise the execution will fail.
 To do so run:
 ```
