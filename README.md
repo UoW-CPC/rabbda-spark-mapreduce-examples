@@ -142,10 +142,14 @@ sudo pip install mrjob
 ```
 
 We can run the python script in two ways:
-Locally
+* Locally:
+```
 python ratings.py users.txt
-On the Hadoop cluster
+```
+* On the Hadoop cluster:
+```
 python ratings.py -r hadoop --hadoop-streaming-jar /usr/hdp/current/hadoop-mapreduce-client/hadoop-streaming.jar users.txt
+```
 
 Run both and compare execution time and messages.
 
