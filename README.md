@@ -146,21 +146,30 @@ We can run the MR Job in two ways:
 ```
 python ratings.py users.txt
 ```
+Output:
+```
+"4"	34174
+"3"	27145
+"1"	6111
+"2"	11370
+"5"	21203
+````
+
 * On the Hadoop cluster:
 ```
 python ratings.py -r hadoop --hadoop-streaming-jar /usr/hdp/current/hadoop-mapreduce-client/hadoop-streaming.jar users.txt
 ```
+Output:
+```
+"1"	6111
+"2"	11370
+"3"	27145
+"4"	34174
+"5"	21203
+````
 
 Run both and compare execution time and messages.
 
-The result will be the following:
-```
-"1" 6111
-"2" 11370
-"3" 27145
-"4" 34174
-"5" 21203
-```
 
 Now it is time to submit a spark job to find the worst movies in the dataset.
 
