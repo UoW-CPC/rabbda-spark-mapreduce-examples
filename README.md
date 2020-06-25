@@ -171,13 +171,13 @@ Output:
 Run both and compare execution time and messages.
 
 
-Now it is time to submit a spark job to find the worst movies in the dataset.
+Now let's try to submit a Spark job to find the worst movies in the dataset.
 
 To submit the python script to spark run the following:
 ```
 spark-sumbit worst-movies.py
 ```
-Spark service will execute the script and the results will be:
+Output:
 ```
 ('3 Ninjas: High Noon At Mega Mountain (1998)', 1.0)
 ('Beyond Bedlam (1993)', 1.0)
